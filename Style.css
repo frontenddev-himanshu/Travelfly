@@ -5,7 +5,11 @@
 }
 body{
 background-image: url(background.png);
+background-attachment: fixed;
 }
+
+/* navbar */
+
 .adjustment{
     display: flex;
     flex-direction: column;
@@ -45,6 +49,9 @@ background-image: url(background.png);
     display: flex;
     gap: 20px;
 }
+
+/* nav2 */
+
 .header-link{
     height: 6vh;
     width: 70%;
@@ -65,6 +72,9 @@ background-image: url(background.png);
     text-decoration: none;
     color: white;
 }
+
+/* page1 big image */
+
 .img-container{
     background-image: url(bridge.jpg);
     background-repeat: no-repeat;
@@ -103,6 +113,8 @@ background-image: url(background.png);
     color: white;
 }
 
+/* page2 main section */
+
 .main-container{
     background-color: rgb(239, 239, 239);
     width: 70%;
@@ -116,6 +128,9 @@ background-image: url(background.png);
     flex-direction: column;
     align-items: center;
 }
+
+/* side area archives point */
+
 .calender{
     height: 100%;
     width: 35%;
@@ -185,6 +200,9 @@ background-image: url(background.png);
     margin-left: 20px;
     color: #57ad68;
 }
+
+/* side area categories point */
+
 .categories{
     margin-top: 20px;
     height: 30vh;
@@ -209,6 +227,9 @@ background-image: url(background.png);
     margin-left: 20px;
     color: #57ad68;
 }
+
+/* side area meta point */
+
 .meta{
     margin-top: 20px;
     height: 21vh;
@@ -246,6 +267,9 @@ background-image: url(background.png);
     padding: 10px 20px;
     border-radius: 2px;
 }
+
+/* footer section */
+
 footer{
     display: flex;
     justify-content: center;
@@ -259,6 +283,9 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+/* coptright sertion */
+
 .copyright{
     height: 80%;
     width: 95%;
